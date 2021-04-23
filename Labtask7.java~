@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Labtask7
+{
+  public static void main(String[]args)
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("please enter a number");
+    int row=sc.nextInt();
+   
+    for(int rown=1; rown<=row;rown++)
+   
+    {
+      int spacecount=row-rown;
+      for(int spacecount=1;spacecount<=col;spacecount++){
+
+        
+      System.out.print(" ");
+      }
+      for(int satrcount=1;starcount<=rown;starcount++){
+      System.out.print("*");
+      
+      }
+        System.out.println();
+      }
+    }
+  }
